@@ -3,8 +3,8 @@
     range(start,stop,step)
 
     start: punto di inizio
-    step: ad ogni iterazione aggiunge [val]
     stop: punto in cui si deve fermare
+    step: ad ogni iterazione aggiunge [val]
 
     in seguito un esempio:
 '''

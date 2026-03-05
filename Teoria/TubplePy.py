@@ -17,3 +17,4 @@ print(n, i) #stampa n ed i
 t = (0,3.14,('python', 0,'stringa'), 9) #le tuple possono contenere più valori anche di differente tipo come anche altre tuple
 
 print(t[0],t[2]) #indicizzazione 
+
