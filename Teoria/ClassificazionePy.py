@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 """
 Classificazione con k-Nearest Neighbor (kNN)
 
@@ -113,7 +113,7 @@ nuovo_campione = (3, 4, 3)
 # applicazione del kNN
 print (kNN(c, b, nuovo_campione, k=2))
 
-=======
+
 """
 Classificazione con k-Nearest Neighbor (kNN)
 
@@ -228,4 +228,4 @@ nuovo_campione = (3, 4, 3)
 # applicazione del kNN
 print (kNN(c, b, nuovo_campione, k=2))
 
->>>>>>> Stashed changes
+

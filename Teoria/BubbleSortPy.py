@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 def bubble_sort(L): 
     """
     Il bubble sort, è un algoritmo di riordinamento che funziona tramite
@@ -21,7 +20,7 @@ lista = [1,2,3,4]
 print(bubble_sort(lista))
 
 #complessità temporale migliore O(n), peggiore O(n**2)
-=======
+
 def bubble_sort(L): 
     """
     Il bubble sort, è un algoritmo di riordinamento che funziona tramite
@@ -44,5 +43,4 @@ lista = [1,2,3,4]
 print(bubble_sort(lista))
 
 #complessità temporale migliore O(n), peggiore O(n**2)
->>>>>>> Stashed changes
 #Complessità spaziale O(1)

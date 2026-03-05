@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 def argmax( L,i ):
         """
         Parametri: L una lista di valori confrontabili tra di loro, un indice della lista (i<n)
@@ -57,7 +57,6 @@ ciò significa che al variare di n (quindi in funzione di n) aumentano sia
 la complessità spaziale che la temporale in egual modo
 """
         
-=======
 def argmax( L,i ):
         """
         Parametri: L una lista di valori confrontabili tra di loro, un indice della lista (i<n)
@@ -116,4 +115,3 @@ ciò significa che al variare di n (quindi in funzione di n) aumentano sia
 la complessità spaziale che la temporale in egual modo
 """
         
->>>>>>> Stashed changes

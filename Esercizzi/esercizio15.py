@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 def ricerca_binaria_lx(L, k):
     n = len(L) 
 
@@ -23,7 +23,7 @@ def ricerca_binaria_lx(L, k):
     return -1 
 
 L = [0,1,4,5,1,6,8]
-=======
+
 def ricerca_binaria_lx(L, k):
     n = len(L) 
 
@@ -48,5 +48,5 @@ def ricerca_binaria_lx(L, k):
     return -1 
 
 L = [0,1,4,5,1,6,8]
->>>>>>> Stashed changes
+
 print(L,1)

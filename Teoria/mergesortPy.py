@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 
 def merge_sort(L,key = lambda x:x, lx = 0, rx = None): # Rende facoltativi i parametri lx e rx, se omessi ordinerà la lista intera
     # Permette di personalizzare il criterio di ordinamento introducendo una funzione opzionale key che definisce il valore dell'elemento della lista
@@ -60,7 +60,7 @@ def merge_sort(L,key = lambda x:x, lx = 0, rx = None): # Rende facoltativi i par
 
 a = [6,2,3,1,9,0,1,2,6,5,3,8,1]
 merge_sort(a, key = lambda x:x[1])
-=======
+
 
 def merge_sort(L,key = lambda x:x, lx = 0, rx = None): # Rende facoltativi i parametri lx e rx, se omessi ordinerà la lista intera
     # Permette di personalizzare il criterio di ordinamento introducendo una funzione opzionale key che definisce il valore dell'elemento della lista
@@ -122,5 +122,5 @@ def merge_sort(L,key = lambda x:x, lx = 0, rx = None): # Rende facoltativi i par
 
 a = [6,2,3,1,9,0,1,2,6,5,3,8,1]
 merge_sort(a, key = lambda x:x[1])
->>>>>>> Stashed changes
+
 print(a)

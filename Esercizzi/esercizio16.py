@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 def unione(l1, l2):
     """
     Parametri: L0 e L1, due liste ordinate rispetto l'operatore <=
@@ -36,7 +36,7 @@ def unione(l1, l2):
 l1 = [1,2,3,8,10]
 l2 = [3,5,11,14,16,17]
 print(unione(l1,l2))
-=======
+
 def unione(l1, l2):
     """
     Parametri: L0 e L1, due liste ordinate rispetto l'operatore <=
@@ -74,4 +74,4 @@ def unione(l1, l2):
 l1 = [1,2,3,8,10]
 l2 = [3,5,11,14,16,17]
 print(unione(l1,l2))
->>>>>>> Stashed changes
+
