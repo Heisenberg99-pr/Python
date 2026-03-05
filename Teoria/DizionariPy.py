@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 """
 Un Dizionario è una struttura dati estratta composta da coppie (x,y) con la
 proprietà che le chiavi k, non siano ripetute, permettendo di creare associazioni
@@ -96,7 +96,7 @@ inserimento(d, 3, "tre")
 cancellazione(d, "due")
 print(appartiene(d, "zero"))
 
-=======
+
 """
 Un Dizionario è una struttura dati estratta composta da coppie (x,y) con la
 proprietà che le chiavi k, non siano ripetute, permettendo di creare associazioni
@@ -194,5 +194,5 @@ inserimento(d, 3, "tre")
 cancellazione(d, "due")
 print(appartiene(d, "zero"))
 
->>>>>>> Stashed changes
+
 print(d)

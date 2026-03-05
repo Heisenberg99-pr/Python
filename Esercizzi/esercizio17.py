@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 def merge_sort(L, key=lambda x:x, lx=0, rx=None):
     """
     Parametro: L, una lista di elementi confrontabili con <=
@@ -68,7 +68,7 @@ a = ["zero", "uno", "due", "tre", "quattro", "cinque"]
 
 merge_sort(a, key=lambda x: (len(x), x) ) #key = prima ordina per lunghezza, poi per alfabeto, nel caso che la lunghezza è uguale
 
-=======
+
 def merge_sort(L, key=lambda x:x, lx=0, rx=None):
     """
     Parametro: L, una lista di elementi confrontabili con <=
@@ -138,5 +138,4 @@ a = ["zero", "uno", "due", "tre", "quattro", "cinque"]
 
 merge_sort(a, key=lambda x: (len(x), x) ) #key = prima ordina per lunghezza, poi per alfabeto, nel caso che la lunghezza è uguale
 
->>>>>>> Stashed changes
 print(a)

@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 def intersezione(L1, L2):
     """
     Parametri: L1 e L2, due liste ordinate rispetto l'operatore <=
@@ -26,7 +26,6 @@ def intersezione(L1, L2):
 a = [-10, -10,0, 1,2, 3, 3, 6, 8, 9, 9, 10,11]
 b = [-10, -10, 0, 2, 3, 3, 4, 5, 6, 6, 10,11]
 
-=======
 def intersezione(L1, L2):
     """
     Parametri: L1 e L2, due liste ordinate rispetto l'operatore <=
@@ -54,5 +53,4 @@ def intersezione(L1, L2):
 a = [-10, -10,0, 1,2, 3, 3, 6, 8, 9, 9, 10,11]
 b = [-10, -10, 0, 2, 3, 3, 4, 5, 6, 6, 10,11]
 
->>>>>>> Stashed changes
 print(intersezione(a,b))

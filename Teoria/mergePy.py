@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 def merge(l1,l2):
     """
     Parametri: l0 e l1 liste ordinate
@@ -33,7 +33,7 @@ def merge(l1,l2):
 a = [0,1,1,4,5,6,6,7,7]
 b = [1,2,2,3,6,7,8,9,9]
 print(merge(a, b))
-=======
+
 def merge(l1,l2):
     """
     Parametri: l0 e l1 liste ordinate
@@ -68,4 +68,4 @@ def merge(l1,l2):
 a = [0,1,1,4,5,6,6,7,7]
 b = [1,2,2,3,6,7,8,9,9]
 print(merge(a, b))
->>>>>>> Stashed changes
+

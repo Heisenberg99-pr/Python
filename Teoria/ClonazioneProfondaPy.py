@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 def clonazione_profonda(L): 
     """
     La clonazione profonda ci permette di poter clonare liste che sono
@@ -21,7 +21,7 @@ Lista_clonata = clonazione_profonda(Lista)
 
 Lista_clonata[0][0] = "uno"
 print(Lista)
-=======
+
 def clonazione_profonda(L): 
     """
     La clonazione profonda ci permette di poter clonare liste che sono
@@ -44,5 +44,5 @@ Lista_clonata = clonazione_profonda(Lista)
 
 Lista_clonata[0][0] = "uno"
 print(Lista)
->>>>>>> Stashed changes
+
 print(Lista_clonata)
