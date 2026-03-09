@@ -47,3 +47,21 @@ Le variabili possono essere castate ( detto casting ), ciò costringe le variabi
 stringa = "19"
 numero = 10
 print(int(stringa)+numero) # restituisce 29, perché converte la stringa "19" in un intero e poi somma con il numero 10
+
+'''
+ Ora vogliamo che queste variabili possano contenere
+ qualcosa che l'utente inserisce da tastiera, questo
+ lo possiamo fare tramite la funzione input(), il quale va a 
+ leggere l'input dell'utente e lo restituisce come stringa
+'''
+
+nome = input("Inserisci il tuo nome:")
+print("Il tuo nome e': " + nome)
+
+'''
+Se volessimo invece inserire un qualsiasi altro tioi di dato, dovremmo fare
+un'operazione di casting all'input, ad esempio:
+'''
+
+numero = int(input("Inserisci un numero intero: "))
+print(f"Il numero inserito e': {numero} e il suo tipo e': {type(numero)}")
