@@ -49,3 +49,14 @@ while i < len(lista):
         break # Interrompe il ciclo se l'elemento è una stringa
     print(lista[i])
     i += 1
+
+"""
+Ciclo for con enumerate:
+In questo caso, andiamo a etinerare sia l'indice che il valore dell'elemento, ad esempio:
+"""
+
+a = "abcdefgh"
+
+for i, x in enumerate(a):
+    print( i, x )
+#costo O(n) dove n è la linghezza della stringa a
