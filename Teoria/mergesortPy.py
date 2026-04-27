@@ -61,3 +61,8 @@ def merge_sort(L,key = lambda x:x, lx = 0, rx = None): # Rende facoltativi i par
 a = [6,2,3,1,9,0,1,2,6,5,3,8,1]
 merge_sort(a, key = lambda x:x[1])
 print(a)
+
+"""
+complessità temporale: O(n log n) in tutti i casi
+complessità spaziale: O(n) per la lista M usata nella funzione merge, O(log n) per la ricorsione, complessità totale O(n)
+"""
