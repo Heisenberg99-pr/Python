@@ -15,4 +15,4 @@ print(f"La lista senza duplixati è: {rimuovi_duplicati(L)}")
 
 
     
-
+ 
