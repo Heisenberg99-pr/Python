@@ -1,6 +1,6 @@
 
 """
-Un Dizionario è una struttura dati estratta composta da coppie (x,y) con la
+Un Dizionario è una struttura dati astratta composta da coppie (x,y) con la
 proprietà che le chiavi k, non siano ripetute, permettendo di creare associazioni
 tra le chiavi [k] e i valori [v].
 
@@ -33,8 +33,8 @@ def ricerca(D,k):
             return i
         else: 
             return None
-        #complessità temporale O(len(D))
-        #complessità spaziale O(1)
+        #complessità temporale O(len(D)) lineare 
+        #complessità spaziale O(1) costante 
 
 def inserimento(D,k,v):
     """
