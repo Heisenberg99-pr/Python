@@ -4,7 +4,7 @@ e ordinati
 
 esempio: 
 """
-a = set([1,2,1,6,7,5,0,6]) # output {0, 1, 2, 5, 6, 7}
+a = set([1,2,1,6,7,5,0,6]) # output {0, 1, 2, 5, 6, 7} elimina i duplicati
 print (1 in a) # output True
 
 a.add(10) # aggiunge un elemento alla lista
