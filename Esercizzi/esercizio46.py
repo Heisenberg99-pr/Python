@@ -32,3 +32,5 @@ def deep_mean(lista, somma = 0,count = 0, restituisci_media = True):
 lista = [1,[2,3],[4,5]]
 print(f"{deep_mean(lista)}")
 
+# costo della funzione ==> temp = O(n) spaziale = O(n)
+
