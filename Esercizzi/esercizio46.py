@@ -22,7 +22,7 @@ def deep_mean(lista, somma = 0,count = 0):
     return somma,count
     
 lista = [1,[2,3]]
-tot, count = deep_mean(lista)
-media = tot/count
+somma, count = deep_mean(lista)
+media = somma/count
 print(f"{media}")
 
