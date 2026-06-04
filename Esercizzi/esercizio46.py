@@ -9,20 +9,26 @@ Ho una lista = [1,[2,3]] ==> 1 non è lista e allora somma = 1
 
 """
 
-def deep_mean(lista, somma = 0,count = 0):
+def deep_mean(lista, somma = 0,count = 0, restituisci_media = True):
     for elem in lista:
         if type(elem)==list:
-            sotto_somma, sotto_count = deep_mean(elem)
+            sotto_somma, sotto_count = deep_mean(elem,restituisci_media = False)
             somma += sotto_somma
             count += sotto_count
         else:
             somma+= elem;
             count+=1; 
-           
-    return somma,count
     
-lista = [1,[2,3]]
-somma, count = deep_mean(lista)
-media = somma/count
-print(f"{media}")
+    if not restituisci_media:
+        return somma,count
+    
+    if count == 0:
+        return 0
+    return somma/count
+   
+           
+    
+    
+lista = [1,[2,3],[4,5]]
+print(f"{deep_mean(lista)}")
 
