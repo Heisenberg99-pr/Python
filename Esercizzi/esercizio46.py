@@ -10,22 +10,21 @@ Ho una lista = [1,[2,3]] ==> 1 non è lista e allora somma = 1
 """
 
 def deep_mean(lista, somma = 0,count = 0, restituisci_media = True):
-    for elem in lista:
-        if type(elem)==list:
-            sotto_somma, sotto_count = deep_mean(elem,restituisci_media = False)
-            somma += sotto_somma
+    for elem in lista: # Scandisce ogni elemento della lista
+        if type(elem)==list: # Se l'elemento della lista è una lista 
+            sotto_somma, sotto_count = deep_mean(elem,restituisci_media = False) # Calcola la sotto somma della lista
+            somma += sotto_somma # Somma la sotto_somma alla somma e il sotto count al count in modo da avere somma e count totali
             count += sotto_count
-        else:
+        else: # Altrimenti fa la normale somma
             somma+= elem;
             count+=1; 
     
-    if not restituisci_media:
+    if not restituisci_media: # Se nella ricorsione fouri dalla ricorsione allora non restituisce somma e count altrimenti restituisce
         return somma,count
     
-    if count == 0:
+    if count == 0: # permette di ritornare allo stato di partenza 
         return 0
-    return somma/count
-   
+    return somma/count  # Alla fine restituisce la media
            
     
     

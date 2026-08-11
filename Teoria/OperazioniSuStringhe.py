@@ -8,12 +8,12 @@ print("la lunghezza della stringa e'? " + str(len(stringa)))
 
 #upper(): converte la stringa in maiuscolo
 
-stringa = "pagliaccio impiccati"
+stringa = "pagliaccio impiccati!!"
 print(stringa.upper())
 
 #lower(): converte in minuscolo una stringa
 
-stringa = "FRATE COME STAI ?"
+stringa = "EI COME STAI ?"
 print(stringa.lower()); 
  
 #capitalize(): solo la prima lettera in maiuscolo

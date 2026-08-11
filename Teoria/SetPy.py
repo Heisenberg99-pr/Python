@@ -1,14 +1,15 @@
 """
 La funzione set() in python permette di creare insiemi di valori senza duplicati
-e ordinati
-
-esempio: 
+e NON ordinati (l'ordine visualizzato è casuale/legato all'hash dei valori).
 """
-a = set([1,2,1,6,7,5,0,6]) # output {0, 1, 2, 5, 6, 7} elimina i duplicati
-print (1 in a) # output True
 
-a.add(10) # aggiunge un elemento alla lista
-print(a)
-a.remove(5) # rimuove un elemento dalla lista
-print(a) 
-print(len(a))
+a = set([1,2,1,6,7,5,0,6]) # Creazione da lista di n elementi -> O(n)
+print (1 in a) # Appartenenza (ricerca con Hash Table) -> O(1) in media
+
+a.add(10) # Aggiunta di un elemento -> O(1) in media
+print(a) # Stampa dell'insieme (scorre n elementi) -> O(n)
+
+a.remove(5) # Rimozione di un elemento specifico -> O(1) in media
+print(a) # Stampa dell'insieme -> O(n)
+
+print(len(a)) # Restituisce la dimensione dell'insieme -> O(1)
